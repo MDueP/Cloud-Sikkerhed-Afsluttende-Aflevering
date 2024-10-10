@@ -387,3 +387,4 @@ $serverdb = New-AzSqlDatabase  -ResourceGroupName $resourcegroup `
       -VCore 2 `
       -MinimumCapacity 2 
 $serverdb
+#Remove-AzResourceGroup -ResourceGroupName $resourcegroup
